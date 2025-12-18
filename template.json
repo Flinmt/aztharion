@@ -678,7 +678,7 @@
           "resonance": ""
         },
         "hunger": {
-          "value": 1,
+          "value": 0,
           "max": 5
         }
       },

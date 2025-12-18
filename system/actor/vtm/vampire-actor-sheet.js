@@ -61,9 +61,7 @@ export class VampireActorSheet extends HandlebarsApplicationMixin(WoDActorBase) 
     disciplines: {
       template: 'systems/aztharion/display/vtm/actors/parts/disciplines.hbs'
     },
-    blood: {
-      template: 'systems/aztharion/display/vtm/actors/parts/blood.hbs'
-    },
+
     features: {
       template: 'systems/aztharion/display/shared/actors/parts/features.hbs'
     },
@@ -106,12 +104,7 @@ export class VampireActorSheet extends HandlebarsApplicationMixin(WoDActorBase) 
       title: 'AZTHARION.VTM.Disciplines',
       icon: '<span class="aztharion-symbol">b</span>'
     },
-    blood: {
-      id: 'blood',
-      group: 'primary',
-      title: 'AZTHARION.VTM.Blood',
-      icon: '<i class="fa-solid fa-droplet"></i>'
-    },
+
     features: {
       id: 'features',
       group: 'primary',
@@ -184,9 +177,7 @@ export class VampireActorSheet extends HandlebarsApplicationMixin(WoDActorBase) 
       case 'disciplines':
         return prepareDisciplinesContext(context, actor)
 
-      // Disciplines
-      case 'blood':
-        return prepareBloodContext(context, actor)
+
 
       // Features
       case 'features':
