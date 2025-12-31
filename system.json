@@ -2,7 +2,7 @@
   "id": "aztharion",
   "title": "Aztharion",
   "description": "Aztharion system for Foundry VTT",
-  "version": "5.3.6",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -32,13 +32,13 @@
   },
   "initiative": "1d10",
   "socket": true,
-  "changelog": "https://github.com/Aztharion-Developers/aztharion/releases/tag/5.3.6",
+  "changelog": "https://github.com/Flinmt/Aztharion/releases/tag/0.0.1",
   "license": "./LICENSE.md",
-  "url": "https://github.com/Aztharion-Developers/aztharion",
-  "bugs": "https://github.com/Aztharion-Developers/aztharion/issues",
+  "url": "https://github.com/Flinmt/Aztharion",
+  "bugs": "https://github.com/Flinmt/Aztharion/issues",
   "background": "systems/aztharion/assets/images/wodcity.jpg",
-  "manifest": "https://github.com/Aztharion-Developers/aztharion/releases/download/5.3.6/system.json",
-  "download": "https://github.com/Aztharion-Developers/aztharion/releases/download/5.3.6/aztharion.zip",
+  "manifest": "https://github.com/Flinmt/Aztharion/releases/download/0.0.1/system.json",
+  "download": "https://github.com/Flinmt/Aztharion/releases/download/0.0.1/aztharion.zip",
   "flags": {
     "hotReload": {
       "extensions": [
